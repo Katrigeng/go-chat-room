@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2194edd7-98ef-4874-b5b2-fc5090322e67" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/handlers/auth.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/handlers/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/handlers/websocket.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/middleware/auth.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/message.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/routes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/scripts/init_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/scripts/start.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/scripts/start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/services/hub.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/utils/database.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/utils/jwt.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Auth/Auth.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Auth/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Auth/Register.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Chat/ChatHeader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Chat/ChatRoom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Chat/ChatRoom.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Chat/MessageInput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Chat/MessageInput.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Chat/MessageList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Chat/MessageList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Chat/OnlineUsers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Chat/OnlineUsers.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Chat/UserProfile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Chat/UserProfile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/contexts/AuthContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/contexts/WebSocketContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/services/authService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/services/messageService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/styles/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/backend/go.mod" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file://C:/Program Files/Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Katrigeng&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Katrigeng/go-chat-room.git&quot;,
+    &quot;accountId&quot;: &quot;771d0dfb-9ed9-47b0-8efe-46a8b4080247&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="30JbTfHHVy7ZgCl9hdB4S5FRLjf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.GoLinterPluginOnboarding&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.GoLinterPluginStorageMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Code\go-chat-room\backend" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-3b128438d3f6-4b567d62c776-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-251.26094.127" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-GO-251.26094.127" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="2194edd7-98ef-4874-b5b2-fc5090322e67" name="更改" comment="" />
+      <created>1753348661225</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753348661225</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

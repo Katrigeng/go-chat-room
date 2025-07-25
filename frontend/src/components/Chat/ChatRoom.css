@@ -1,0 +1,236 @@
+.chatroom-layout {
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.chatroom-content {
+    height: calc(100vh - 64px);
+}
+
+.chat-main {
+    padding: 16px;
+    padding-right: 8px;
+}
+
+.chat-container {
+    height: 100%;
+}
+
+.chat-card {
+    height: 100%;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.95);
+}
+
+.chat-area {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-sidebar {
+    padding: 16px;
+    padding-left: 8px;
+    transition: all 0.3s ease;
+}
+
+.chat-sidebar .ant-layout-sider-children {
+    background: transparent;
+}
+
+/* Header样式 */
+.chat-header {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 100;
+}
+
+.chat-header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.chat-header-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.sidebar-toggle {
+    color: #1f2937;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.sidebar-toggle:hover {
+    background: rgba(102, 126, 234, 0.1);
+    color: #667eea;
+}
+
+.chat-title {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.header-title {
+    margin: 0 !important;
+    color: #1f2937;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.connection-status {
+    font-size: 12px;
+}
+
+.connection-status .ant-badge-status-text {
+    color: #6b7280;
+    font-weight: 500;
+}
+
+.chat-header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-button {
+    color: #6b7280;
+    border: none;
+    background: transparent;
+    height: 40px;
+    padding: 0 12px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+}
+
+.header-button:hover {
+    background: rgba(102, 126, 234, 0.1);
+    color: #667eea;
+}
+
+.header-button.connected {
+    color: #52c41a;
+}
+
+.header-button.disconnected {
+    color: #ff4d4f;
+}
+
+.logout-button:hover {
+    background: rgba(255, 77, 79, 0.1) !important;
+    color: #ff4d4f !important;
+}
+
+.online-count {
+    font-size: 12px;
+    background: #52c41a;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 10px;
+    margin-left: 4px;
+}
+
+/* 响应式设计 */
+@media (max-width: 1200px) {
+    .chat-main {
+        padding-right: 16px;
+    }
+
+    .chat-sidebar {
+        padding-left: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    .chat-sidebar {
+        position: fixed !important;
+        top: 64px !important;
+        right: 0 !important;
+        height: calc(100vh - 64px) !important;
+        z-index: 999;
+        box-shadow: -4px 0 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .chat-main {
+        padding: 16px;
+    }
+
+    .sidebar-toggle {
+        display: block !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .chat-header-content {
+        padding: 0 12px;
+    }
+
+    .chat-title {
+        gap: 2px;
+    }
+
+    .header-title {
+        font-size: 16px !important;
+    }
+
+    .header-button {
+        height: 36px;
+        padding: 0 8px;
+        font-size: 13px;
+    }
+
+    .chat-main {
+        padding: 12px;
+    }
+
+    .chat-card {
+        border-radius: 8px;
+    }
+
+    .online-count {
+        font-size: 11px;
+        padding: 1px 4px;
+    }
+}
+
+@media (max-width: 480px) {
+    .chat-header-left {
+        gap: 8px;
+    }
+
+    .header-title {
+        font-size: 14px !important;
+    }
+
+    .header-button {
+        height: 32px;
+        padding: 0 6px;
+    }
+
+    .header-button span:not(.online-count) {
+        display: none;
+    }
+
+    .chat-main {
+        padding: 8px;
+    }
+}

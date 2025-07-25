@@ -1,0 +1,143 @@
+.message-input-container {
+    border-top: 1px solid #f0f0f0;
+    background: white;
+    padding: 16px;
+}
+
+.message-input-wrapper {
+    display: flex;
+    align-items: flex-end;
+    gap: 12px;
+}
+
+.input-section {
+    flex: 1;
+}
+
+.message-textarea {
+    border-radius: 20px !important;
+    border: 2px solid #e8e8e8 !important;
+    transition: all 0.3s ease !important;
+    font-size: 14px;
+    resize: none !important;
+}
+
+.message-textarea:focus,
+.message-textarea:hover {
+    border-color: #667eea !important;
+    box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.1) !important;
+}
+
+.message-textarea.ant-input-disabled {
+    background: #f5f5f5 !important;
+    border-color: #d9d9d9 !important;
+    color: #999 !important;
+}
+
+.action-section {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 4px;
+}
+
+.action-button {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.action-button:hover {
+    background: #f0f0f0;
+}
+
+.action-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.emoji-button {
+    color: #ffa940;
+}
+
+.emoji-button:hover:not(:disabled) {
+    background: #fff7e6;
+    color: #fa8c16;
+}
+
+.send-button {
+    height: 36px;
+    padding: 0 16px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.send-button:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+}
+
+.send-button:disabled {
+    opacity: 0.5;
+    transform: none;
+    box-shadow: none;
+}
+
+.input-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    padding: 0 4px;
+}
+
+.connection-info {
+    font-size: 12px;
+}
+
+.status-connected {
+    color: #52c41a;
+}
+
+.status-disconnected {
+    color: #ff4d4f;
+}
+
+.char-count {
+    font-size: 12px;
+    color: #999;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .message-input-container {
+        padding: 12px;
+    }
+
+    .message-input-wrapper {
+        gap: 8px;
+    }
+
+    .action-button {
+        width: 32px;
+        height: 32px;
+    }
+
+    .send-button {
+        height: 32px;
+        padding: 0 12px;
+        font-size: 13px;
+    }
+
+    .input-footer {
+        margin-top: 6px;
+    }
+}
